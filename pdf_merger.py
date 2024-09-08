@@ -8,7 +8,7 @@ import PyPDF2
 class PDFMergerApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("PDF Merger")
+        self.root.title("PDF Merger 2")
         self.root.geometry("400x600")  # Set the window size to 400px wide and 600px tall
 
         self.file1_path = ""
